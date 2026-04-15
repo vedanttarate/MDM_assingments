@@ -1,0 +1,30 @@
+# ============================================================
+# LSTM Text Prediction — FastAPI Deployment
+# Requirements File
+# Install with: pip install -r requirements.txt
+# ============================================================
+
+# ── Web Framework ─────────────────────────────────────────
+fastapi==0.110.0
+uvicorn[standard]==0.27.1
+python-multipart==0.0.9
+
+# ── Data Validation ───────────────────────────────────────
+pydantic==2.6.3
+
+# ── Deep Learning ─────────────────────────────────────────
+tensorflow==2.15.0
+# OR use: tensorflow-cpu==2.15.0  (if no GPU, faster install)
+
+# ── Data Processing ───────────────────────────────────────
+numpy==1.26.4
+
+# ── Serialization ─────────────────────────────────────────
+# pickle is built-in to Python, no install needed
+
+# ── HTTP (for downloading dataset in Colab) ───────────────
+requests==2.31.0
+
+# ── Optional: for testing ─────────────────────────────────
+httpx==0.27.0       # for async test client
+pytest==8.1.0       # for unit tests

@@ -1,0 +1,7 @@
+{
+  "seq_len": 10,
+  "vocab_size": 2576,
+  "embed_dim": 100,
+  "model_file": "lstm_weights.npy",
+  "tok_file": "tokenizer.json"
+}
